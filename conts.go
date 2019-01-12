@@ -121,3 +121,56 @@ const (
 	BufObjFloat32Array      int = C.DUK_BUFOBJ_FLOAT32ARRAY
 	BufObjFloat64Array      int = C.DUK_BUFOBJ_FLOAT64ARRAY
 )
+
+const (
+	DefpropWritable         int = C.DUK_DEFPROP_WRITABLE
+	DefpropEnumerable       int = C.DUK_DEFPROP_ENUMERABLE
+	DefpropConfigurable     int = C.DUK_DEFPROP_CONFIGURABLE
+	DefpropHaveWritable     int = C.DUK_DEFPROP_HAVE_WRITABLE
+	DefpropHaveEnumerable   int = C.DUK_DEFPROP_HAVE_ENUMERABLE
+	DefpropHaveConfigurable int = C.DUK_DEFPROP_HAVE_CONFIGURABLE
+	DefpropHaveValue        int = C.DUK_DEFPROP_HAVE_VALUE
+	DefpropForce            int = C.DUK_DEFPROP_FORCE
+
+	DefpropSetWriteable      int = C.DUK_DEFPROP_SET_WRITABLE
+	DefpropClearWriteble     int = C.DUK_DEFPROP_CLEAR_WRITABLE
+	DefpropSetEnumerable     int = C.DUK_DEFPROP_SET_ENUMERABLE
+	DefpropClearEnumerable   int = C.DUK_DEFPROP_CLEAR_ENUMERABLE
+	DefpropSetConfigurable   int = C.DUK_DEFPROP_SET_CONFIGURABLE
+	DefpropClearConfigurable int = C.DUK_DEFPROP_CLEAR_CONFIGURABLE
+
+	DefpropW   int = C.DUK_DEFPROP_W
+	DefpropE   int = C.DUK_DEFPROP_E
+	DefpropC   int = C.DUK_DEFPROP_C
+	DefpropWE  int = C.DUK_DEFPROP_WE
+	DefpropWC  int = C.DUK_DEFPROP_WC
+	DefpropWEC int = C.DUK_DEFPROP_WEC
+
+	DefpropHaveW   int = C.DUK_DEFPROP_HAVE_W
+	DefpropHaveE   int = C.DUK_DEFPROP_HAVE_E
+	DefpropHaveC   int = C.DUK_DEFPROP_HAVE_C
+	DefpropHaveWE  int = C.DUK_DEFPROP_HAVE_WE
+	DefpropHaveWC  int = C.DUK_DEFPROP_HAVE_WC
+	DefpropHaveWEC int = C.DUK_DEFPROP_HAVE_WEC
+
+	DefpropSetW   int = C.DUK_DEFPROP_SET_W
+	DefpropSetE   int = C.DUK_DEFPROP_SET_E
+	DefpropSetC   int = C.DUK_DEFPROP_SET_C
+	DefpropSetWE  int = C.DUK_DEFPROP_SET_WE
+	DefpropSetWC  int = C.DUK_DEFPROP_SET_WC
+	DefpropSetWEC int = C.DUK_DEFPROP_SET_WEC
+
+	DefpropClearW   int = C.DUK_DEFPROP_CLEAR_W
+	DefpropClearE   int = C.DUK_DEFPROP_CLEAR_E
+	DefpropClearC   int = C.DUK_DEFPROP_CLEAR_C
+	DefpropClearWE  int = C.DUK_DEFPROP_CLEAR_WE
+	DefpropClearWC  int = C.DUK_DEFPROP_CLEAR_WC
+	DefpropClearWEC int = C.DUK_DEFPROP_CLEAR_WEC
+
+	DefpropAttrW   int = C.DUK_DEFPROP_ATTR_W
+	DefpropAttrE   int = C.DUK_DEFPROP_ATTR_E
+	DefpropAttrC   int = C.DUK_DEFPROP_ATTR_C
+	DefpropAttrWE  int = C.DUK_DEFPROP_ATTR_WE
+	DefpropAttrWC  int = C.DUK_DEFPROP_ATTR_WC
+	DefpropAttrWEC int = C.DUK_DEFPROP_ATTR_WEC
+)
